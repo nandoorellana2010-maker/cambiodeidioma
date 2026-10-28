@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react'
 import { ViewReact } from '../Models/ViewReact'
 import { ContextoIdiomas } from '../Contextos/ContextoIdiomas'
