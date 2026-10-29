@@ -6,6 +6,6 @@ export default function BotonIn() {
     const contexto = useContext(ContextoIdiomas)
 
   return (
-    <button onClick={()=>contexto.cambioIdioma("en")}>Cambiar idioma a Ingles</button>
+    <button type='button' className='btn btn-success btn-sm' onClick={()=>contexto.cambioIdioma("en")}>Cambiar idioma a Ingles</button>
   )
 }

@@ -9,9 +9,11 @@ export default function Home() {
     <CambioIdiomaProvider>
       <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
         <h1>Traductor Ingles - Español</h1>
-        <BotonEs></BotonEs>
-        <BotonIn></BotonIn>
         <MostrarTraduccion></MostrarTraduccion>
+        <br></br>
+        <BotonEs></BotonEs>
+        <br></br>
+        <BotonIn></BotonIn>
       </div>
 
     </CambioIdiomaProvider>
